@@ -1,0 +1,16 @@
+[package]
+name = "file_hashmap"
+version = "0.1.0"
+authors = ["Mathias Svensson <idolf@freaken.dk>"]
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["hashmap", "linux", "data-structures", "file"]
+repository = "https://github.com/Idolf/file_hashmap"
+homepage = "https://github.com/Idolf/file_hashmap"
+description = "A file-backed version of the libcollections HashMap"
+
+[dependencies]
+rand = "0.3"
+cast = "0.1"
+lazy_static = "0.1"
+nix = "0.7"
